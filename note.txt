@@ -1,0 +1,7 @@
+1 cari "console.log("
+2 telusuri terus sampai ketemu ")"
+3 masukkan ke array
+4 split array tersebut dengan "(" dan ")"
+5 masukkan index ke-1 ke variable
+6 variable tersebut dimasukkan ke innerHTML #output
+7 eval(code)

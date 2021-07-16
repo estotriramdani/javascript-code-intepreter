@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+.container {
+  margin-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr;
+      grid-template-columns: 1.5fr 1fr;
+  grid-gap: 40px;
+  padding: 10px 20px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+}
+
+.left .editor {
+  border: solid 2px black;
+  display: block;
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+}
+
+.right #message {
+  color: #f4a261;
+}
+
+.right .output {
+  padding: 10px;
+}
+
+.right .output .console-output {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.right .output .console-output .output-index {
+  font-style: italic;
+}
+
+.error-message .error-item {
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=index.css.map */

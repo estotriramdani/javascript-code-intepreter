@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <textarea class="editor" id="editor"></textarea>
+        <button class="button" id="checkCode">Cek Kode</button>
+      </div>
+      <div class="right">
+        <div id="message"></div>
+        <div id="output" class="output">
+          <span class="console-output"
+            ><span class="output-index">Output 1</span>: <br />
+            Halo dunia</span
+          >
+          <span class="console-output"
+            ><span class="output-index">Output 2</span>: <br />
+            3</span
+          >
+        </div>
+        <pre id="errorMessage"></pre>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
